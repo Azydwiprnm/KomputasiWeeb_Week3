@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="latihanWeek3.css">
+    <title>Kontak Kami</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            Webhozz Blog
+        </header>
+        
+        <h2>Kontak Kami</h2>
+        <p>Silahkan tinggalkan pesan anda, pada kolom yang tersedia.</p>
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nama Anda:</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan Nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail Anda:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan Email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Jenis Kelamin:</label>
+                <div class="gender-group">
+                    <label><input type="radio" name="gender" value="Laki-laki" required> Laki-laki</label>
+                    <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Pesan Anda:</label>
+                <textarea id="message" name="message" placeholder="Masukkan Pesan Anda" required></textarea>
+            </div>
+
+            <button type="submit">POST</button>
+        </form>
+    </div>
+</body>
+</html>
